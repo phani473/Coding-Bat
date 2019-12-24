@@ -1,0 +1,10 @@
+public String doubleChar(String str) {
+  int i;
+  String res = "";
+  for(i=0;i<str.length();i++){
+     res = res+str.substring(i,i+1)+str.substring(i,i+1);
+  }
+ return res;
+  
+}
+                
